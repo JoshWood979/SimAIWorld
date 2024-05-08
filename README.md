@@ -41,7 +41,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ### Step 1. 生成工具文件
-修改`reverie/backend_server`目录下的 `utils.py` 文件，在里面替换上你自己的<Your OpenAI API>和系统名称<Name>.
+创建并修改`reverie/backend_server`目录下的 `utils.py` 文件，在里面替换上你自己的<Your OpenAI API>和系统名称<Name>.
 ```
 # 如果用chatgpt接口，选择OpenAI API Key
 openai_api_key = "<Your OpenAI API>"
